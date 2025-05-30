@@ -3,7 +3,7 @@
 # Login to Docker Hub
 docker login -u $DOCKER_USERNAME -p $DOCKER_PASS
 
-<<<<<<< HEAD
+
 # Stop and remove existing container if it exists
 =======
 # Stop and remove existing container if running
@@ -22,7 +22,7 @@ docker tag react-ci/cd jithu026/react-app:ci-cd
 
 # Push the image to Docker Hub
 docker push jithu026/react-app:ci-cd
-<<<<<<< HEAD
+
 
 =======
 >>>>>>> c2ba9fc85ffd4863d3270f6a418c1ce03cc19625
